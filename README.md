@@ -20,13 +20,13 @@ This project uses a **Convolutional Neural Network (CNN)**, specifically **VGG16
 
 ## 🏗️ Project Architecture
 User UI (Flask)
-    ↓
+    **->**
 Image Upload
-    ↓
+    **->**
 Preprocessing & Resizing (64x64 RGB)
-    ↓
+    **->**
 Prediction via VGG16-based CNN
-    ↓
+    **->**
 Output Class Label (A-Z, del, nothing, space)
 
 **Tech Stack**
